@@ -104,11 +104,7 @@ const emptySet = (unit, limit) => ({ pairs: [], shap: [], ranges: [], unit, limi
 
 const SEED = {
   PM: { pairs: PM_PAIRS, shap: PM_SHAP, ranges: [], unit: "mg/Nm³", limit: 50 },
-  SO2: { pairs: SO2_PAIRS, shap: SO2_SHAP, ranges: [], unit: "mg/Nm³", limit: 200 },
-  NOx: { pairs: NOX_PAIRS, shap: NOX_SHAP, ranges: NOX_RANGES, unit: "mg/Nm³", limit: 300 },
-};
-
-const DEFAULT_TOL = { PM: 0.15, SO2: 1.5, NOx: 2 };
+  SO2: { pairs: SO2_PAIRS, shap: SO2_SHAP, 
 
 /* XGBoost row from each notebook's model_comparison table */
 const MODELS = {
