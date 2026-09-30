@@ -77,7 +77,7 @@ BANDS = {
 ],
 }
 MODELS = {
-"PM": dict(name="XGBoost", train_r2=0.9991, train_mae=0.0891, train_rmse=0.1148, gap=0.5396, "SOx": dict(name="XGBoost", train_r2=0.9996, train_mae=0.8047, train_rmse=1.1543, gap=0.5397, "NOx": dict(name="XGBoost", train_r2=0.9994, train_mae=1.0352, train_rmse=1.5057, gap=0.5612,
+"PM": dict{name="XGBoost", train_r2=0.9991, train_mae=0.0891, train_rmse=0.1148, gap=0.5396, "SOx": dict(name="XGBoost", train_r2=0.9996, train_mae=0.8047, train_rmse=1.1543, gap=0.5397, "NOx": dict(name="XGBoost", train_r2=0.9994, train_mae=1.0352, train_rmse=1.5057, gap=0.5612,
 }
 # Recorded consent exceedances — plant records, not model output.
 # FY27 is a part-year figure: April 2026 to date.
